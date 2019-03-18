@@ -1,8 +1,8 @@
 <template>
 	<div id="info-box">
 		<div class="bg">
-			<img class="logo" src="../../assets/icon.png" />
-			<div class="title">私教登录</div>
+			<img class="logo" src="../../assets/flame.jpg" />
+			<div class="title">用户登录</div>
 		</div>
 		<div>
 			<van-cell-group>
@@ -14,7 +14,7 @@
 				<van-loading v-show="loadingShow" /> 登录
 			</van-button>
 		</div>
-		<div id="copyright">© 2018 多锐运动 中国·长沙</div>
+		<div id="copyright">© 2019 巨石网络 中国·长沙</div>
 	</div>
 </template>
 <script>
@@ -88,14 +88,14 @@
 	}
 	
 	.logo {
-		width: 60px;
-		height: 60px;
+		width: 300px;
+		height: 120px;
 	}
 	
 	.title {
 		font-size: 18px;
 		font-weight: 900;
-		color: #8271FF;
+		color: #F99A06;
 	}
 	
 	.van-cell-group {
@@ -108,8 +108,8 @@
 	}
 	
 	.van-button--primary {
-		background-color: #8271FF;
-		border: 1px solid #8271FF;
+		background-color: #F99A06;
+		border: 1px solid #F99A06;
 	}
 	
 	#copyright {
